@@ -50,7 +50,6 @@ namespace VisualEffects.Animations.Effects
 
         public void SetValue( Control control, int originalValue, int valueToReach, int newValue )
         {
-            Console.WriteLine( newValue );
             var state = _controlCache[ control ];
 
             //invalidate region no more in use

@@ -39,7 +39,6 @@ namespace VisualEffects.Animations.Effects
             int newB = (int)Interpolate( originalColor.B, newColor.B, absoluteChangePerc );
 
             control.BackColor = Color.FromArgb( newA, newR, newG, newB );
-            Console.WriteLine( control.BackColor + " " + newColor );
         }
 
         public int GetMinimumValue( Control control )
