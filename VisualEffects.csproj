@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88C2E4D2-1237-4616-9F74-2D0A4AF06009}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VisualEffects</RootNamespace>
+    <AssemblyName>VisualEffects</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animators\AnimationStatus.cs" />
+    <Compile Include="Effects\Bounds\FoldEffect.cs" />
+    <Compile Include="Extensions\AnimationExtensions.cs" />
+    <Compile Include="EasingFunctions.cs" />
+    <Compile Include="Effects\Bounds\BottomAnchoredHeightEffect.cs" />
+    <Compile Include="Effects\Bounds\HorizontalFoldEffect.cs" />
+    <Compile Include="Effects\Bounds\LeftAnchoredWidthEffect.cs" />
+    <Compile Include="Effects\Bounds\RightAnchoredWidthEffect.cs" />
+    <Compile Include="Effects\Bounds\TopAnchoredHeightEffect.cs" />
+    <Compile Include="Effects\Bounds\VerticalFoldEffect.cs" />
+    <Compile Include="Effects\Bounds\XLocationEffect.cs" />
+    <Compile Include="Effects\Bounds\YLocationEffect.cs" />
+    <Compile Include="Effects\Color\ColorChannelShiftEffect.cs" />
+    <Compile Include="Effects\Color\ColorShiftEffect.cs" />
+    <Compile Include="Effects\EffectInteractions.cs" />
+    <Compile Include="Effects\Opacity\ControlFadeEffect.cs" />
+    <Compile Include="Effects\Opacity\FormFadeEffect.cs" />
+    <Compile Include="Effects\Other\FontSizeEffect.cs" />
+    <Compile Include="ExampleFoldAnimation.cs" />
+    <Compile Include="Effects\IAnimationEffect.cs" />
+    <Compile Include="Animators\Animator.cs" />
+    <Compile Include="Extensions\ControlExtensions.cs" />
+    <Compile Include="Extensions\ImageExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeProject_Url.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

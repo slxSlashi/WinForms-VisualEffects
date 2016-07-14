@@ -1,0 +1,10 @@
+C:\Users\Sascha\Desktop\Neuer Ordner (2)\bin\Debug\VisualEffects.dll
+C:\Users\Sascha\Desktop\Neuer Ordner (2)\bin\Debug\VisualEffects.pdb
+C:\Users\Sascha\Desktop\Neuer Ordner (2)\obj\Debug\VisualEffects.csprojResolveAssemblyReference.cache
+C:\Users\Sascha\Desktop\Neuer Ordner (2)\obj\Debug\VisualEffects.dll
+C:\Users\Sascha\Desktop\Neuer Ordner (2)\obj\Debug\VisualEffects.pdb
+C:\Dev\Privat\VisualEffects\bin\Debug\VisualEffects.dll
+C:\Dev\Privat\VisualEffects\bin\Debug\VisualEffects.pdb
+C:\Dev\Privat\VisualEffects\obj\Debug\VisualEffects.csprojResolveAssemblyReference.cache
+C:\Dev\Privat\VisualEffects\obj\Debug\VisualEffects.dll
+C:\Dev\Privat\VisualEffects\obj\Debug\VisualEffects.pdb
